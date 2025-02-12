@@ -12,8 +12,13 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="w-40">
-            <div className="text-[#ae3dad] font-bold text-xl">AMPERAZ</div>
+          <div className="w-40 h-12 relative">
+            <img
+              src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?auto=format&fit=crop&q=80&w=400"
+              alt="Growth Agency Logo"
+              className="w-full h-full object-contain"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent mix-blend-overlay"></div>
           </div>
 
           {/* Desktop Navigation */}
