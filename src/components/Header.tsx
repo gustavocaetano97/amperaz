@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
           {/* Logo */}
           <div className="w-40 h-12 relative">
             <img
-              src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?auto=format&fit=crop&q=80&w=400"
+              src="/public/images/logo_amperaz.png"
               alt="Growth Agency Logo"
               className="w-full h-full object-contain"
             />
