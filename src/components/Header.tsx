@@ -12,13 +12,8 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="w-40 h-12 relative">
-            <img
-              src="/images/logo_amperaz.png"
-              alt="Amperaz Marketing"
-              className="w-full h-full object-contain"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent mix-blend-overlay"></div>
+          <div className="w-40">
+            <div className="text-[#00FF00] font-bold text-xl">AMPERAZ MARKETING</div>
           </div>
 
           {/* Desktop Navigation */}

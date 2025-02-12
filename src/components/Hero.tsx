@@ -40,9 +40,6 @@ const Hero: React.FC = () => {
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-8 h-8 text-[#00FF00]" />
-        </div>
         </div>
       </div>
     </section>
