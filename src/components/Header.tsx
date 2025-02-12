@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="w-40">
-            <div className="text-[#00FF00] font-bold text-xl">AMPERAZ MARKETING</div>
+            <div className="text-[#00FF00] font-bold text-xl">AMPERAZ</div>
           </div>
 
           {/* Desktop Navigation */}
