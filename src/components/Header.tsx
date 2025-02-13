@@ -13,11 +13,11 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="w-40 h-12">
+          <div className="w-40 h-12 relative">
             <img
-            src={`${import.meta.env.BASE_URL}/images/logo-amperaz.webp`}
-            alt="Amperaz Logo"
-            className="w-full h-full object-contain"
+              src={logoAmperaz}
+              alt="Logo Amperaz Marketing"
+              className="w-full h-full object-contain"
             />
           </div>
 
