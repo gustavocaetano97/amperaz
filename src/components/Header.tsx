@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
             <img
               src={logoAmperaz}
               alt="Logo Amperaz Marketing"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain scale-140"
             />
           </div>
 
