@@ -15,9 +15,9 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
           {/* Logo */}
           <div className="w-40 h-12">
             <img
-              src={logoAmperaz} // Importação direta
-              alt="Amperaz Logo"
-              className="w-full h-full object-contain"
+            src={`${import.meta.env.BASE_URL}/images/logo-amperaz.webp`}
+            alt="Amperaz Logo"
+            className="w-full h-full object-contain"
             />
           </div>
 
