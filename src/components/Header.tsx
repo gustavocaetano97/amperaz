@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
-import logoAmperaz from '../images/logo_amperaz.webp';
+import logoAmperaz from '../assets/logo_amperaz.webp';
 
 interface HeaderProps {
   isMenuOpen: boolean;
