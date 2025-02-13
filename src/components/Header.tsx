@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
+import logoAmperaz from '../images/logo-amperaz.png';
 
 interface HeaderProps {
   isMenuOpen: boolean;
@@ -12,8 +13,12 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="w-40">
-            <div className="text-[#00FF00] font-bold text-xl">AMPERAZ</div>
+          <div className="w-40 h-12"> {/* Ajuste conforme tamanho da imagem */}
+            <img
+            src="/images/logo-amperaz.webp"
+            alt="Amperaz Logo"
+            className="w-full h-full object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
