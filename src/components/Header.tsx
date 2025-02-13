@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
           {/* Logo */}
           <div className="w-40 h-12"> {/* Ajuste conforme tamanho da imagem */}
             <img
-            src="/images/logo-amperaz.webp"
+            src="/images/logo_amperaz.webp"
             alt="Amperaz Logo"
             className="w-full h-full object-contain"
             />
