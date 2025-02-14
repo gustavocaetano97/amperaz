@@ -16,7 +16,8 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="inicio" className="min-h-screen relative flex items-center justify-center overflow-hidden pt-20">
+    <section id="inicio" className="min-h-screen relative flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -24,14 +25,15 @@ const Hero: React.FC = () => {
         }}
       />
 
+      {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#300334]/95 to-black/80" />
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h1 className="text-7xl font-bold tracking-tight animate-fade-in">
+      <div className="container mx-auto px-4 relative z-10 pt-32 md:pt-40">
+        <div className="max-w-4xl mx-auto text-center space-y-8 mb-24">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-fade-in">
             Crescimento de negócios muito além do tráfego pago
           </h1>
-          <p className="text-2xl text-[#00FF00]">
+          <p className="text-xl sm:text-2xl text-[#00FF00]">
             Energia na medida para o seu marketing
           </p>
           <div className="pt-4">
@@ -40,6 +42,11 @@ const Hero: React.FC = () => {
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
+        </div>
+
+        {/* Scroll Indicator - Adjusted position */}
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <ChevronDown className="w-8 h-8 text-[#00FF00]" />
         </div>
       </div>
     </section>
