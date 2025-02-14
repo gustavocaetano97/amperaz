@@ -27,7 +27,7 @@ const testimonials = [
 
 const Testimonials: React.FC = () => {
   return (
-    <section id="resultados" className="py-20 bg-black">
+    <section id="resultados" className="py-20 bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <MessageSquare className="section-icon" />
@@ -36,14 +36,14 @@ const Testimonials: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Resultados Reais
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="testimonial-card">
               <div className="mb-6">
                 <div className="w-16 h-16 mb-4 mx-auto overflow-hidden rounded-full">
-                  <img 
-                    src={testimonial.logo} 
+                  <img
+                    src={testimonial.logo}
                     alt={`${testimonial.company} logo`}
                     className="w-full h-full object-cover"
                   />

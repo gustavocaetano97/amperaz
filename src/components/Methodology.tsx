@@ -26,14 +26,14 @@ const steps = [
 
 const Methodology: React.FC = () => {
   return (
-    <section className="py-20 bg-zinc-900">
+    <section className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <Target className="section-icon" />
         </div>
 
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Como?</h2>
-        
+
         <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
           {steps.map((step, index) => (
             <div key={index} className="timeline-item flex-1 text-center">
@@ -42,7 +42,7 @@ const Methodology: React.FC = () => {
                 <h3 className="text-2xl font-bold mb-2 mt-4">{step.title}</h3>
                 <p className="text-gray-300">{step.description}</p>
               </div>
-              
+
               {index < steps.length - 1 && (
                 <div className="hidden md:block absolute top-1/2 left-full transform -translate-y-1/2">
                   <ArrowDown size={24} className="text-[#00FF00] rotate-[-90deg]" />
