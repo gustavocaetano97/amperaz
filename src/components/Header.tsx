@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
-import logoAmperaz from '../assets/logo_amperaz.webp';
+import logo from '../assets/logo.svg';
 
 interface HeaderProps {
   isMenuOpen: boolean;
@@ -12,8 +12,8 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <div className="w-48 h-16 relative">
+           {/* Logo */}
+           <div className="w-48 h-16 relative">
             <img
               src={logoAmperaz}
               alt="Logo Amperaz Marketing"
@@ -61,4 +61,4 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   );
 };
 
-export default Header
+export default Header;

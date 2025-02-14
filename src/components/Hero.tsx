@@ -18,16 +18,16 @@ const Hero: React.FC = () => {
   return (
     <section id="inicio" className="min-h-screen relative flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div
+      <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${bgImage})`,
         }}
       />
-
+      
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#300334]/95 to-black/80" />
-
+      
       <div className="container mx-auto px-4 relative z-10 pt-32 md:pt-40">
         <div className="max-w-4xl mx-auto text-center space-y-8 mb-24">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-fade-in">

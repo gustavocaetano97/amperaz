@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-declare module '*.webp' {
-  const value: string;
+declare module '*.svg' {
+  const content: string;
   export default content;
 }

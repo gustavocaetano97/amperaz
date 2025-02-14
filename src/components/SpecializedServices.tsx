@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
+import { 
   ShoppingCart, Bot, Search, Target, ArrowUpRight,
   BarChart2, MessageSquare, Link, Leaf, TrendingUp, CheckSquare,
   Rocket
@@ -43,17 +43,17 @@ const SpecializedServices: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Muito além do tráfego pago em
         </h2>
-
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
           {/* E-commerce Column */}
-          <div
+          <div 
             className={`space-y-6 transition-all duration-500 ${
               activeColumn === 0 ? 'opacity-100 scale-100' : 'opacity-50 scale-95'
             }`}
             onClick={() => setActiveColumn(0)}
           >
             <div className="relative h-48 mb-8 rounded-xl overflow-hidden">
-              <img
+              <img 
                 src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1200"
                 alt="E-commerce Analytics"
                 className="w-full h-full object-cover"
@@ -69,14 +69,14 @@ const SpecializedServices: React.FC = () => {
           </div>
 
           {/* Geração de Leads Column */}
-          <div
+          <div 
             className={`space-y-6 transition-all duration-500 ${
               activeColumn === 1 ? 'opacity-100 scale-100' : 'opacity-50 scale-95'
             }`}
             onClick={() => setActiveColumn(1)}
           >
             <div className="relative h-48 mb-8 rounded-xl overflow-hidden">
-              <img
+              <img 
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
                 alt="Lead Generation Analytics"
                 className="w-full h-full object-cover"
