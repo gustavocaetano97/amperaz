@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="48" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 12L28 24L20 36L12 24L20 12Z" fill="#00FF00"/>
+  <path d="M40 8L32 24L40 40L48 24L40 8Z" fill="#00FF00" fill-opacity="0.7"/>
+  <text x="60" y="32" font-family="Inter" font-size="24" font-weight="700" fill="white">Growth</text>
+</svg>

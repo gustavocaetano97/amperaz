@@ -12,12 +12,12 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-           {/* Logo */}
-           <div className="w-48 h-16 relative">
-            <img
-              src={logoAmperaz}
-              alt="Logo Amperaz Marketing"
-              className="w-full h-full object-contain scale-140"
+          {/* Logo */}
+          <div className="w-40 h-12 relative">
+            <img 
+              src={logo}
+              alt="Growth Agency Logo"
+              className="w-full h-full object-contain"
             />
           </div>
 
