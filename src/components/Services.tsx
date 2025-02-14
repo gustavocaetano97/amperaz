@@ -3,7 +3,7 @@ import { BarChart2, Users, Database, Lightbulb, LineChart } from 'lucide-react';
 
 const Services: React.FC = () => {
   return (
-    <section id="servicos" className="py-20 bg-black">
+    <section id="servicos" className="py-20 bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <LineChart className="section-icon" />

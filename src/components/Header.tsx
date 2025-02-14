@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo_amperaz.svg';
 
 interface HeaderProps {
   isMenuOpen: boolean;
@@ -13,10 +13,10 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="w-40 h-12 relative">
-            <img 
+          <div className="w-56 h-20 relative">
+            <img
               src={logo}
-              alt="Growth Agency Logo"
+              alt="Amperaz Marketing Logo"
               className="w-full h-full object-contain"
             />
           </div>

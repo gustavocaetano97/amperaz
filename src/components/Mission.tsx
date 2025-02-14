@@ -3,7 +3,7 @@ import { Target, Star, Brain, ArrowRight } from 'lucide-react';
 
 const Mission: React.FC = () => {
   return (
-    <section id="missao" className="py-20 bg-zinc-900">
+    <section id="missao" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
@@ -32,7 +32,7 @@ const Mission: React.FC = () => {
 
             {/* Right Column - Image */}
             <div className="relative h-[500px] w-full rounded-2xl overflow-hidden">
-              <img 
+              <img
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
                 alt="Marketing Analytics Dashboard"
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl"

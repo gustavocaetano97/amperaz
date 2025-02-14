@@ -24,7 +24,7 @@ const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <HelpCircle className="section-icon" />
@@ -48,7 +48,7 @@ const FAQ: React.FC = () => {
                   <ChevronDown className="text-[#00FF00]" />
                 )}
               </button>
-              
+
               <div
                 className={`overflow-hidden transition-all duration-300 ${
                   openIndex === index ? 'max-h-48' : 'max-h-0'
