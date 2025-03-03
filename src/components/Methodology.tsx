@@ -26,7 +26,7 @@ const steps = [
 
 const Methodology: React.FC = () => {
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <Target className="section-icon" />
