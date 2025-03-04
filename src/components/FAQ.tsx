@@ -24,7 +24,7 @@ const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="py-20 bg-black">
+    <section id="faq" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <HelpCircle className="section-icon" />

@@ -26,13 +26,13 @@ const steps = [
 
 const Methodology: React.FC = () => {
   return (
-    <section className="py-20 bg-zinc-900">
+    <section id="metodologia" className="py-20 bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <Target className="section-icon" />
         </div>
 
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Como?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Como trabalhamos?</h2>
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
           {steps.map((step, index) => (

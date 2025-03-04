@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import SpecializedServices from './components/SpecializedServices';
-import Automation from './components/Automation';
-import Mission from './components/Mission';
-import Methodology from './components/Methodology';
-import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,15 +35,13 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <main>
-        <Hero />
-        <Services />
-        <SpecializedServices />
-        <Automation />
-        <Mission />
-        <Methodology />
-        <FAQ />
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/termos" element={<Terms />} />
+        <Route path="/privacidade" element={<Privacy />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+      </Routes>
       <Footer />
     </div>
   );
